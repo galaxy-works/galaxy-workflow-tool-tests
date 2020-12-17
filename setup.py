@@ -29,7 +29,7 @@ with open('%s/__init__.py' % SOURCE_DIR, 'rb') as f:
     PROJECT_EMAIL = get_var("PROJECT_EMAIL")
 
 TEST_DIR = 'tests'
-PROJECT_DESCRIPTION = 'Galaxy Workflow Format 2 Descriptions'
+PROJECT_DESCRIPTION = 'Galaxy Workflow Tool Tests'
 PACKAGES = [
     'gwtt',
 ]
@@ -89,7 +89,6 @@ setup(
         'Topic :: Software Development :: Testing',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
