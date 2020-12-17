@@ -6,7 +6,7 @@ History
 .. to_doc
 
 ---------------------
-0.0.2.dev0
+0.0.2 (2020-12-16)
 ---------------------
 
 * Fixes to project structure for PyPI.
