@@ -1,6 +1,6 @@
 """The public interface or entry point for the galaxy-workflow-tool-tests project."""
 
-__version__ = '0.0.1'
+__version__ = '0.0.2.dev0'
 
 PROJECT_NAME = "galaxy-workflow-tool-tests"
 PROJECT_OWNER = PROJECT_USERAME = "galaxy-works"

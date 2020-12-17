@@ -1,5 +1,5 @@
 # Default tests run with make test and make quick-tests
-NOSE_TESTS?=tests gxwtt
+NOSE_TESTS?=tests gwtt
 # Default environment for make tox
 ENV?=py36
 # Extra arguments supplied to tox command
@@ -10,10 +10,10 @@ VENV?=.venv
 IN_VENV=if [ -f $(VENV)/bin/activate ]; then . $(VENV)/bin/activate; fi;
 # TODO: add this upstream as a remote if it doesn't already exist.
 UPSTREAM?=jmchilton
-SOURCE_DIR?=gxwtt
+SOURCE_DIR?=gwtt
 BUILD_SCRIPTS_DIR=scripts
 VERSION?=$(shell python $(BUILD_SCRIPTS_DIR)/print_version_for_release.py $(SOURCE_DIR))
-DOC_URL?=https://gxwtt.readthedocs.org
+DOC_URL?=https://gwtt.readthedocs.org
 PROJECT_URL?=https://github.com/galaxy-works/galaxy-workflow-tool-tests
 PROJECT_NAME?=galaxy-workflow-tool-tests
 TEST_DIR?=tests
