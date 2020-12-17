@@ -4,16 +4,18 @@ galaxy-workflow-tool-tests
 
 A simple wrapper around Galaxy_'s galaxy-tool-test that runs tool tests for all the tools in a workflow.
 
+------------------
 Minimal Usage:
-~~~~~~~~~~~~~~
+------------------
 
 ::
 
    galaxy-workflow-tool-tests  -k <api_key> -u http://localhost:8080/ <encoded_workflow_id>
 
 
+----------------
 Program Help
-~~~~~~~~~~~~
+----------------
 
 
 ::
