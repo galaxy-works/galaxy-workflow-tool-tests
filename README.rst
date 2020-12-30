@@ -10,6 +10,7 @@ Minimal Usage:
 
 ::
 
+   pip install galaxy-workflow-tool-tests
    galaxy-workflow-tool-tests  -k <api_key> -u http://localhost:8080/ <encoded_workflow_id>
 
 
